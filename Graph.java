@@ -7,6 +7,10 @@ class Graph{
   private final List <Vertex> vertexList;
   public List getEdge (List edge) {return edge;}
   public List getVertex (List vertex) {return vertex;}
-  public Graph(String graphName){
+  public Graph(String mygraphName){
+    graphName=myGraphName;
   }
+  public void addVertex(){
+    }
+  public
 }
