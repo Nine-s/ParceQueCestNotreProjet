@@ -14,6 +14,7 @@ class Graph{
     
     }
   public void addEdge(String myEdgeName, Vertex myVertexstart, Vertex myVertexend){
-    Vertex(myEdgeName, myVertexstart, myVertexend);
+    Vertex myVertex= new Vertex(myEdgeName, myVertexstart, myVertexend);
+    edgeList.add(myVertex);
   }
 }
