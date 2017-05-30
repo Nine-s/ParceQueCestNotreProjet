@@ -9,7 +9,7 @@ class Vertex{
 	this.vertexName = vertexName;
 	listVertex = new ArrayList<>();
     }
-n
+
     public String getVertexName() {
 	return vertexName;
     }
@@ -21,7 +21,14 @@ n
     public List <Vertex> getListVertex() {
 	return listVertex;
     }
+    
 
+    
+    /**
+     *  <code>connectToVertex</code> connects a Vertex with another one. 
+     *
+     * @param vertex A vertex to connect to the current one.
+     */
     public void connectToVertex (Vertex vertex){
 	listVertex.add(vertex);
     }
