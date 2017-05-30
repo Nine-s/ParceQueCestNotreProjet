@@ -33,3 +33,4 @@ class Vertex{
 	listVertex.add(vertex);
     }
 
+}
