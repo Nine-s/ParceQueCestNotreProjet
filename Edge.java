@@ -1,15 +1,16 @@
 import java.io.*;
 import java.util.*;
-import java.math.*;
-import java.lang.*;
 
 class Edge{
-  private String EdgeName;
+  private String edgeName;
   private Vertex start;
   private Vertex end;
   public void setVertexStart(Vertex myStart){start=myStart;}
   public void setVertexEnd(Vertex myEnd){end=myEnd;}
-  public void setVertexName()
-  public Edge(String EdgeName, Vertex start, Vertex end){
-
+  public void setVertexName(String myName){edgeName=myName;}
+  public Edge(String myEdgeName, Vertex myStart, Vertex myEnd){
+    start=myStart;
+    end=myEnd;
+    edgeName=myName;
   }
+}
