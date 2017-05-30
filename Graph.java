@@ -4,8 +4,11 @@ import java.math.*;
 import java.lang.*;
 
 class Graph{
-  private final List <Edge> edgeList=new List <Object>();
-  private final List <Vertex> vertexList=new List <Object>();
+  private String graphName;
+  private final List <Edge> edgeList;
+  private final List <Vertex> vertexList;
   public List getEdge (List edge) {return edge;}
   public List getVertex (List vertex) {return vertex;}
+  public Graph(String graphName){
+  }
 }
