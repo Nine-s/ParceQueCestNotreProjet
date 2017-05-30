@@ -10,7 +10,10 @@ class Graph{
   public Graph(String mygraphName){
     graphName=myGraphName;
   }
-  public void addVertex(){
+  public void addVertex(String myVertexName, ){
+    
     }
-  public
+  public void addEdge(String myEdgeName, Vertex myVertexstart, Vertex myVertexend){
+    Vertex(myEdgeName, myVertexstart, myVertexend);
+  }
 }
